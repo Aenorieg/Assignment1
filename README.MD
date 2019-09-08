@@ -39,3 +39,9 @@ git commit -m "Create assignment 1 files"
 git push
 ````
 
+8. Change color, height, and width of wordcloud image
+
+````
+wordcloud_cli --text pubmed.090419.v1.txt --imagefile assignment1.wordcloud.png --color goldenrod --background red --height 700 --width 700 --contour_color black
+````
+
